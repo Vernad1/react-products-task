@@ -1,0 +1,42 @@
+/* section */
+.section {
+  padding-inline: 20px;
+  max-width: calc(1200px + 20px * 2);
+
+  margin-inline: auto;
+  padding-block: 40px;
+}
+
+/* header */
+
+.header {
+  background-color: #000;
+  color: #fff;
+}
+
+h1 {
+  margin: 0;
+}
+
+.headerInner {
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerLinks {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+}
+
+.headerLink {
+  display: block;
+  color: #fff;
+}
+
+.headerLink:hover {
+  color: #1a82be;
+}

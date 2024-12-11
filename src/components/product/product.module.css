@@ -1,0 +1,32 @@
+.product {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.productImage {
+  width: 40%;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.productInfo {
+  max-width: 60%;
+}
+
+.productTitle {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  .product {
+    flex-direction: column;
+  }
+  .productImage {
+    width: 100%;
+  }
+
+  .productInfo {
+    max-width: 100%;
+  }
+}

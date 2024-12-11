@@ -1,0 +1,33 @@
+.pagination {
+  padding-block: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.paginationButton {
+  width: 40px;
+  aspect-ratio: 1;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.paginationButton:hover {
+  cursor: pointer;
+  background-color: #cecece;
+}
+
+.paginationButton.active {
+  background-color: #868686;
+}
+
+.paginationButton:disabled:hover {
+  cursor: auto;
+  background: none;
+}
+
+.paginationButton.active:hover {
+  cursor: auto;
+}
