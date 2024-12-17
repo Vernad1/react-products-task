@@ -8,15 +8,15 @@ import { CreateProductPage } from "./pages/CreateProductPage";
 
 const router = createBrowserRouter([
   {
-    path: "/products",
+    path: "/react-products-task/products",
     element: <ProductsPage></ProductsPage>,
   },
   {
-    path: "/products/:id",
+    path: "/react-products-task/products/:id",
     element: <ProductPage></ProductPage>,
   },
   {
-    path: "/create-product",
+    path: "/react-products-task/create-product",
     element: <CreateProductPage></CreateProductPage>,
   },
   {
