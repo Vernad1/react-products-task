@@ -9,8 +9,8 @@ interface Props {
 
 export const AppLayout: FC<Props> = ({ children }) => {
   const headerLinks = [
-    { href: "/products", name: "Каталог" },
-    { href: "/create-product", name: "Создать товар" },
+    { href: "/react-products-task/products", name: "Каталог" },
+    { href: "/react-products-task/create-product", name: "Создать товар" },
   ];
 
   return (

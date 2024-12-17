@@ -36,7 +36,10 @@ export const ProductsList: FC<Props> = ({ products }) => {
       {products.map((product: IProduct) => {
         return (
           <li className={styles.productsItem} key={product.id}>
-            <Link to={`/products/${product.id}`} className={styles.link}>
+            <Link
+              to={`/react-products-task/products/${product.id}`}
+              className={styles.link}
+            >
               <div className={styles.imageWrapper}>
                 <img
                   src={product.images[0]}

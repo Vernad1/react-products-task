@@ -6,7 +6,7 @@ export const ProductHeader = () => {
   return (
     <div className={styles.productHeader}>
       <button
-        onClick={() => nav("/products")}
+        onClick={() => nav("/react-products-task/products")}
         className={styles.headerBackButton}
       >
         <svg
